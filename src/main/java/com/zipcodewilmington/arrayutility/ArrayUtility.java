@@ -32,9 +32,7 @@ public class ArrayUtility<T> {
     }
 
     public T[] removeValue(T value){
-        //list.remove(value);
-        //return list.toArray(new T[0]);
-        return null;
+        return ArrayUtils.removeAllOccurences(array,value);
     }
 
 }
